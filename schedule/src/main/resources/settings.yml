@@ -1,0 +1,8 @@
+ db:
+    url: 127.0.0.1
+    driveClass: com.sun.Drive
+    username: gongruiWang
+    password: 123456
+    maxIdel: 100
+    poolsize: 100
+
