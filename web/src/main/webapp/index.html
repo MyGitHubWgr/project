@@ -3,17 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Learn Vue</title>
-    <script src="js/vue.min.js"/>
+    <script src="js/vue.min.js"></script>
 </head>
 <body>
 
-<i id="mes">
-    {{message}}
-</i>
+<div id="app">
+    {{ message }}
+</div>
+
+<div id="app2">
+    {{ message }}
+</div>
+
+<div id="example-2">
+    <p v-if="greeting">Hello!</p>
+</div>
+
+
 <script>
-
-    new Vue({e1:'#mes',message:"Hello Uvw!"});
-
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue.js!'
+        }
+    });
+    new Vue({
+        el: '#app2',
+        data: {
+            message: 'Hello Vue!'
+        }
+    });
+    var exampleVM2 = new Vue({
+        el: '#example-2',
+        data: {
+            greeting: true
+        }
+    });
 </script>
 </body>
 </html>

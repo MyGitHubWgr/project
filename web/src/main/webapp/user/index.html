@@ -2,7 +2,8 @@
 <html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <script src="../js/vue.min.js"></script>
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
@@ -18,6 +19,127 @@
     <title>Title</title>
 </head>
 <body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+    </div>
+    <div class="row">
+        <div>
+            <h1>h1. Bootstrap heading
+                <small>Secondary text</small>
+            </h1>
+            You can use the mark tag to
+            <mark>highlight</mark>
+            text.<p/>
+            <small>This line of text is meant to be treated as fine print.</small>
+            <p/>
+            <em>rendered as italicized text</em>
+        </div>
+        <div>
+            <p class="text-left">Left aligned text.</p>
+            <p class="text-center">Center aligned text.</p>
+            <p class="text-right">Right aligned text.</p>
+            <p class="text-justify">Justified text.</p>
+            <p class="text-nowrap">No wrap text.</p>
+        </div>
+        <div>
+            <form role="form">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">Example block-level help text here.</p>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Check me out
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+        </div>
+        <div>
+            <p>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                <button type="button" class="btn btn-default btn-lg">Large button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary">Default button</button>
+                <button type="button" class="btn btn-default">Default button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary btn-sm">Small button</button>
+                <button type="button" class="btn btn-default btn-sm">Small button</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+                <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+            </p>
+        </div>
+        <p/>
+        <div>
+            <!-- Standard button -->
+            <button type="button" class="btn btn-default">Default</button>
 
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <button type="button" class="btn btn-primary">Primary</button>
+
+            <!-- Indicates a successful or positive action -->
+            <button type="button" class="btn btn-success">Success</button>
+
+            <!-- Contextual button for informational alert messages -->
+            <button type="button" class="btn btn-info">Info</button>
+
+            <!-- Indicates caution should be taken with this action -->
+            <button type="button" class="btn btn-warning">Warning</button>
+
+            <!-- Indicates a dangerous or potentially negative action -->
+            <button type="button" class="btn btn-danger">Danger</button>
+
+            <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+        <p/>
+        <div>
+            <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary button</button>
+            <button type="button" class="btn btn-default btn-lg" disabled="disabled">Button</button>
+        </div>
+        <p/>
+        <div>
+            <div>
+
+                <!-- JiaThis Button BEGIN -->
+                <div id="ckepop">
+                    <span class="jiathis_txt">分享到：</span>
+                    <a class="jiathis_button_weixin">微信</a>
+                    <a href="http://www.jiathis.com/share"
+                       class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+                    <a class="jiathis_counter_style"></a></div>
+                <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1" charset="utf-8"></script>
+            </div> <!-- JiaThis Button END -->
+
+            <!-- UY BEGIN -->
+            <div id="uyan_frame"></div>
+            <script type="text/javascript" src="../js/uyan.min.js"></script>
+            <!-- UY END -->
+        </div>
+    </div>
+</div>
+</div>
 </body>
 </html>
