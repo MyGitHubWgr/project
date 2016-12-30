@@ -10,6 +10,6 @@ public class ConfigConstatants {
 
     public static void config(Constants constants){
             constants.setDevMode(false);
-            constants.setViewType(ViewType.OTHER);
+            constants.setViewType(ViewType.JSP);
     }
 }

@@ -9,6 +9,7 @@ public class User extends Controller {
 
     public void index(){
 
+        render("index.html");
     }
     public void login(){
         User user = getModel(User.class);
