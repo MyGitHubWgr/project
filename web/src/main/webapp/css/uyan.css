@@ -51,7 +51,7 @@ div.resetbox select, div.resetbox input, div.resetbox textarea, div.resetbox sel
 }
 
 .uyanpost .sectionbox {
-    padding: 0 0 18x;
+    padding: 0 0 18px;
 }
 .uyanpost .sectionbox .blockbox .blockhead {
     float: left;
